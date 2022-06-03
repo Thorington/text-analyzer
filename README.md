@@ -25,7 +25,7 @@ This page asks the user a series of questions to determine which programming lan
 
 ## Known Bugs
 
-* No known bugs
+* Result at present only takes into account the answer to the first question. An expansion of the scoring system to evaluate all of the questions is underway, but it's either really complicated or I'm making it way harder than it needs to be.
 
 ## License
 
