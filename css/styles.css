@@ -51,4 +51,5 @@ p {
 
 #go, #ruby, #python {
   display: none;
+  padding-top: 30px;
 }
