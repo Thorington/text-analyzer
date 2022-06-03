@@ -27,9 +27,7 @@ $(document).ready(function () {
 
 });
 
-
-
-    // There's a more complex scoring system below, but it's gonna be awhile before I get it working:
+    // There's a more complex scoring system below, but it's gonna be awhile before I get it working, and I don't even know if I'm on the right track:
 
     // let score = 0;
     // let total = 4;
