@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 });
 
-    // There's a more complex scoring system below, but it's gonna be awhile before I get it working, and I don't even know if I'm on the right track:
+    // There's a more complex scoring system below, but it's gonna be awhile before I get it working, and I don't even know if I'm on the right track. From what I've looked at today, it sounds like a loop might be a better solution than what's below.
 
     // let score = 0;
     // let total = 4;
