@@ -49,6 +49,6 @@ p {
   margin-bottom: 10px;
 }
 
-#result {
+#go, #ruby, #python {
   display: none;
 }
