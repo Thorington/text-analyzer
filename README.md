@@ -15,17 +15,17 @@
 
 ## Description
 
-_This page asks the user a series of questions to determine which programming language they should learn: Go, Ruby, or Python.
+This page asks the user a series of questions to determine which programming language they should learn: Go, Ruby, or Python.
 
 ## Setup/Installation Requirements
 
-* Clone this repository to your desktop.
-* Navigate to the top level of the directory.
-* Open index.html in your browser.
+* Clone this repository to your desktop
+* Navigate to the top level of the directory
+* Open index.html in your browser
 
 ## Known Bugs
 
-* No known bugs.
+* No known bugs
 
 ## License
 
