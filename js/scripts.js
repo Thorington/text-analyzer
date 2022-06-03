@@ -29,16 +29,7 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-    // Working on a better scoring system below:
+    // There's a more complex scoring system below, but it's gonna be awhile before I get it working:
 
     // let score = 0;
     // let total = 4;
