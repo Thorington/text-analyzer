@@ -1,9 +1,10 @@
 body {
   font-family:sans-serif;
+  font-size: smaller;
   margin: 5%;
   background-color: rgb(221, 228, 252);
   background-image: url(../img/collage.jpg);
-  background-position: fixed;
+  background-attachment: fixed;
   padding: 2%;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -11,38 +12,28 @@ body {
 h1, h2, h3{
   color: black;
   font-weight: bold;
+  padding: 40px;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 25px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: hotpink;
+.btn {
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 20px;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.btn:hover {
   background-color: white;
-  color: hotpink;
+  color: black;
 }
 
 .container {
   border-radius: 50px;
   background-color: aliceblue;
   padding: 50px;
-  width: 75%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   position: relative;
