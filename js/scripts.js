@@ -8,16 +8,16 @@ $(document).ready(function () {
     const likeRed = $('input:radio[name=likeRed]:checked').val();
     const fearWorms = $('input:radio[name=fearWorms]:checked').val();
 
-    if (age >= 21) {
+    if (howManyLet === two) {
       $('#go').show();
     }
 
-    if (age >= 21) {
+    if (howManyLet === four) {
       $('#ruby').show();
     }
 
-    if (age >= 21) {
+    if (howManyLet === six) {
       $('#python').show();
     }
-  }
+  })
 });
