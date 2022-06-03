@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#userInput").on("submit", function (event) {
+  $("form#userInput").submit(function(event) {
     event.preventDefault();
 
     const howManyLet = $('input:radio[name=howManyLet]:checked').val();
@@ -9,22 +9,23 @@ $(document).ready(function () {
     const likeRed = $('input:radio[name=likeRed]:checked').val();
     const fearWorms = $('input:radio[name=fearWorms]:checked').val();
 
-    let result; 
+    let result;
 
-      if (howManyLet === 'two') {
-        result = $('#go').show();
-      }
-      else if (howManyLet === 'four'){
-        result = $('#ruby').show();
-      }
-      else if (howManyLet === 'six'){
-        result = $('#python').show();
-      }
-      else {
-        result = $('#sorry').show();
-      }
-    });
+    if (howManyLet === 'two') {
+      result = "You should consider learning GO!";
+    }
+      else if (howManyLet === 'four') {
+      result = "You should consider learning RUBY!";
+    }
+      else if (howManyLet === 'six') {
+      result = "You should consider learning PYTHON!"
+    }
+
+    $("#output").text(result);
+
   });
+
+});
 
 
 
