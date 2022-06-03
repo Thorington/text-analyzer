@@ -14,12 +14,16 @@ $(document).ready(function () {
     if (howManyLet === 'two') {
       result = $('#go').show();
     }
-    else if (howManyLet === 'four') {
+    if (likeRed === 'yes') {
       result = $('#ruby').show();
     }
-    else if (howManyLet === 'six') {
+    if (favThing === 'reptiles') {
       result = $('#python').show();
     }
+    else  {
+      result = $('#sorry').show();
+    }
+
 
     
   })
