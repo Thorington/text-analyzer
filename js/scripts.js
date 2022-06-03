@@ -1,16 +1,18 @@
-$(document).ready(function() {
-  $("form#userInput").submit(function(event) {
-      const age = parseInt($("input#age").val());
-      const gender = $("select#gender").val();
-  
-      let quote = (100 - age) * 3;
-      if (gender === 'male' && age < 26) {
-        quote += 50;
-      }
-  
-      $("#rate").text(quote);
-      $("#quote").show()
-  
-      event.preventDefault();
-    });
-  });
+$(document).ready(function () {
+  $('userInput').submit(function (event) {
+    event.preventDefault();
+    const howManyLet = $('input:radio[name=howManyLet]:checked').val();
+    const favLetter = $('input:radio[name=favLetter]:checked').val();
+    const favThing = $('input:radio[name=favThing]:checked').val();
+    const favMotion = $('input:radio[name=favMotion]:checked').val();
+    const likeRed = $('input:radio[name=likeRed]:checked').val();
+    const fearWorms = $('input:radio[name=fearWorms]:checked').val();
+
+    let result = howManyLet + favLetter + favThing + favMotion + likeRed + fearWorms;
+
+   
+
+      $("#result").text(language);
+      $("#language").show();
+  })
+});
