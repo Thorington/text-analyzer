@@ -28,14 +28,29 @@ function numberOfOccurrencesInText(word, text) {
   return wordCount;
 }
 
-function removeBadWords(words,text) {
-  const noBadWords = text.split(" ");
-  let i = 0;
-  noBadWords.forEach(function(element) {
-    if (element.toLowerCase().includes(words.toLowerCase())) {
-      noBadWords.splice(i, 1);
-    } else {i++;
-  } 
+// function removeBadWords(words,text) {
+//   const noBadWords = text.split(" ");
+//   let i = 0;
+//   noBadWords.forEach(function(element) {
+//     if (element.toLowerCase().includes(words.toLowerCase())) {
+//       noBadWords.splice(i, 1);
+//     } else {i++;
+//   } 
+//   });
+//   return noBadWords;
+// }
+
+function omitOffensiveWords(word, text) {
+  if (text.trim().length === 0) {
+    return 0;
+  }
+  let goodtext = []
+  let textArray = text.split(" ");
+  textArray.forEach(function(element) {
+    if (!offensiveWords.includes(element.toLowerCase())) {
+      goodtext.push(element);
+    }
   });
-  return noBadWords;
+
+  return goodtext;
 }
