@@ -88,6 +88,18 @@ const word = "Red";
 numberOfOccurrencesInText(word, text);
 Expected Output: 3
 
+# _Describe: removeBadWords()_
+
+Test: "It should return text with any bad words removed."
+Code:
+const text = "zoinks you stepped on my foot";
+const word = "zoinks";
+removeBadWords(word, text);
+Expected output: "you stepped on my foot";
+
+
+
+
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop

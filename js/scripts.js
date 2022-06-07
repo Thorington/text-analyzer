@@ -27,3 +27,15 @@ function numberOfOccurrencesInText(word, text) {
   });
   return wordCount;
 }
+
+function removeBadWords(words,text) {
+  const noBadWords = text.split(" ");
+  let i = 0;
+  noBadWords.forEach(function(element) {
+    if (element.toLowerCase().includes(words.toLowerCase())) {
+      noBadWords.splice(i, 1);
+    } else {i++;
+  } 
+  });
+  return noBadWords;
+}
