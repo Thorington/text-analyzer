@@ -35,6 +35,17 @@ function numberOfOccurrencesInText(word, text) {
   return wordCount;
 }
 
+function firstInstanceOfWord(word, text) {
+  const textArray = text.split(" ");
+  for (let i = 0; i < textArray.length; i++) {
+    console.log(i);
+    if (word === textArray[i]) {
+      return i;
+    }
+  }
+  return -1;
+}
+
 // UI Logic
 
 function boldPassage(word, text) {
