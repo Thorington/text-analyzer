@@ -1,8 +1,8 @@
-# _Indepedent Project #2: Programming Language Suggester_
+# _Text Analyzer Project_
 
 #### Contributors: _**Claire Thorington & Ashe Urban**_
 
-#### _A page demonstrating new skills in JavaScript and jQuery!_
+#### _A program demonstrating new skills in JavaScript!_
 
 
 ## Technologies Used
@@ -108,7 +108,7 @@ Expected output: "you stepped on my foot";
 
 ## Known Bugs
 
-* text
+* None
 
 ## License
 
